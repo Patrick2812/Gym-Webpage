@@ -48,21 +48,21 @@
         <div class="container">
             <h1><strong><pre>    Fill this form to get started at 
         The Best GYM in PUNE!!!</pre></strong></h1>
-            <form action="#">
+            <form action="/getdata" method="post">
                 <div class="cont-left">
-                <input type="text" id="form1" name="form1" placeholder="Enter Your Name">
-                <input type="text" id="form2" name="form2" placeholder="Enter Your Email">
+                <input type="text" id="form1" name="form1" placeholder="Enter Your Name" required>
+                <input type="text" id="form2" name="form2" placeholder="Enter Your Email" required>
                 <br><label for="form3">Do You Workout?</label>
-                <input type="radio" id="form3" name="form3" >
+                <input type="radio" id="form3" name="form3" required >
                 <label for="form3">Yes</label>
-                <input type="radio" id="form3" name="form3" >
+                <input type="radio" id="form3" name="form3" required>
                 <label for="form3">No</label>
-                <input type="text" id="form4" name="form4" placeholder="Enter Your Phone no:">
-                <input type="checkbox" id="form5" name="form5" >
+                <input type="text" id="form4" name="form4" placeholder="Enter Your Phone no:" required>
+                <input type="checkbox" id="form5" name="form5" required >
                 <label for="form5">Do You Live in Pune?</label>
                 </div>
                 <div class="cont-right">
-                <button class="btn" type="reset">Submit</button>
+                <button class="btn" type="submit" value="Submit" id="submit">Submit</button>
             </div>
             </form>
             
