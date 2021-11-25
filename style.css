@@ -4,12 +4,12 @@
         font-family: 'Baloo Bhai 2', cursive;
         font-size: large;
         color: white;
-        margin:0px;
+        margin:auto;
         padding:0px;
         background: url(yoga.jpg);
-        background-repeat: no-repeat;
+        background-repeat: no-repeat cover;
         background-size: 100%;
-        /* background-size: cover; */
+        width: 969px;
         
     }
     .left{
@@ -26,23 +26,21 @@
     /* border-color: rgb(227, 231, 235); */
     display: block;
     margin: 15px auto;
-    width: 40%;
-    margin-top: 5px;
+    width: 48%;
+    margin-top: 4px;
     /* text-align: center; */
     
    }
    .right{
     /* border: 5px solid; */
     /* border-color: rgb(211, 10, 70); */
-    display: inline-block;
-    margin: 15px auto;
-    position: absolute;
+    display: block;
+    margin: 50px auto;
+    position: relative;
+    float: right;
     padding: 10px;
-    right: 30px;
-    top: -10px;
-   }
-   .navbar{
-
+    right: -175px;
+    top: -100px;
    }
    .navbar li{
        display: inline-block;
@@ -110,13 +108,13 @@
     /* border: solid blue; */
     display: inline-block;
     text-align: left;
-    position: absolute;
-    height: 219px;
-    width: 500px;
-    left: 314px;
-    top: 243px;
-    padding: 60px;
-    padding-left: 100px;
+    position: relative;
+    height: 276px;
+    width: 430px;
+    left: 20vw;
+    top: 22vh;
+    padding: 70px;
+    padding-left: 0px;
    }
    .container .cont-left{
        display: inline-block;
@@ -157,9 +155,6 @@
        display: inline;
        width: 20px;
        height: 25px;
-   }
-   .container h1{
-
    }
    .right-btn:hover{
     text-shadow: rgb(0, 0, 0);
